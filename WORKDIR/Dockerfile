@@ -1,5 +1,5 @@
 FROM almalinux:9
-RUN /tmp/workdir-demo
+RUN mkdir /tmp/workdir-demo
 RUN cd /tmp/workdir-demo
 RUN pwd
 
